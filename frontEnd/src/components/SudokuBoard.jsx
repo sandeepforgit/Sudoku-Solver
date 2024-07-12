@@ -13,6 +13,7 @@ const SudokuBoard = () => {
     };
 
     const handleSolve = async () => {
+        console.log(board);
         setLoading(true);
         setError('');
         try {
